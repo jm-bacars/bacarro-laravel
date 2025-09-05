@@ -1,0 +1,102 @@
+/*!
+* Start Bootstrap - Agency v7.0.12 (https://startbootstrap.com/theme/agency)
+* Copyright 2013-2023 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
+*/
+/*!
+* Bootstrap v5.2.3 (https://getbootstrap.com/)
+* Copyright 2011-2022 The Bootstrap Authors
+* Copyright 2011-2022 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+*/
+
+
+:root {
+  --bs-yellow: #ffc800;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-primary: #ffc800;
+  --bs-primary-rgb: 255, 200, 0;
+  --bs-link-color: #ffc800;
+  --bs-link-hover-color: #cca000;
+  --bs-body-font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+body {
+  font-family: var(--bs-body-font-family);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(90, 27, 27);
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 7%;
+  padding-right: 7px;
+  font-size: 30px;
+
+  &:hover {
+    color: var(--bs-link-hover-color);
+  }
+}
+
+button,
+[type="button"] {
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  padding-right: calc(1.5rem * 0.5);
+  padding-left: calc(1.5rem * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  font-family: var(--bs-body-font-family);
+  background-image: url("../../landing-page/assets/img/12.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.text {
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 70px;
+  text-shadow: 4px 4px 8px black;
+}
+
+.btn {
+  font-weight: 700;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+}
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.125rem;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
